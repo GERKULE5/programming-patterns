@@ -67,10 +67,12 @@ class Program
     string studentName = "";
     string groupName = "";
     string practiceName = "ПР №1: Паттерн Одиночка";
+    string description = "Демонстрация работы менеджера настроек";
 
     Console.WriteLine($"Студент: {studentName}");
     Console.WriteLine($"Группа: {groupName}");
     Console.WriteLine($"Практическая работа: {practiceName}");
+    Console.WriteLine($"Описание: {description}");
     Console.WriteLine();
 
     SettingsManager firstManager = SettingsManager.GetInstance();
